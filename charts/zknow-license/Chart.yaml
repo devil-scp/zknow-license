@@ -1,0 +1,24 @@
+annotations:
+  category: Infrastructure
+apiVersion: v2
+appVersion: 2.0.0
+dependencies:
+  - name: common
+    repository: https://openchart.choerodon.com.cn/choerodon/c7n
+    version: 1.x.x
+description: Monitor service of Choerodon.
+engine: gotpl
+home: https://github.com/open-hand/zknow-license/tree/master/chart/zknow-license
+icon: https://ui-avatars.com/api/?name=zknow-license
+keywords:
+  - choerodon
+  - monitor
+maintainers:
+  - email: zhuchiyu@vip.hand-china.com
+    name: choerodon
+    url: https://choerodon.io
+name: zknow-license
+sources:
+  - https://github.com/open-hand/zknow-license
+  - https://gitee.com/open-hand/zknow-license
+version: 2.0.0
