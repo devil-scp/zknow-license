@@ -47,6 +47,34 @@ server:
     direct-buffers: true
     # HTTP POST请求最大的大小。默认0，无限制，可设置10M
     max-http-post-size: 10485760
+hzero:
+  service:
+    platform:
+      name: zknow-platform
+    oauth:
+      name: zknow-oauth
+    iam:
+      name: zknow-iam
+    file:
+      name: zknow-file
+    message:
+      name: zknow-message
+    admin:
+      name: zknow-admin
+    swagger:
+      name: zknow-swagger
+    gateway:
+      name: zknow-gateway
+    monitor:
+      name: zknow-monitor
+    hlod:
+      name: zknow-lowcode
+    modeler:
+      name: zknow-modeler
+    workflow:
+      name: workflow-service
+    scheduler:
+      name: zknow-scheduler
 eureka:
   instance:
     # 以IP注册到注册中心
